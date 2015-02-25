@@ -1,6 +1,6 @@
 # DO NOT EDIT DIRECTLY!
 # This file was generated automatically by GenStackDefines.py
-# on Sun, 05 Oct 2014 18:39:53
+# on Wed, 25 Feb 2015 15:56:50
 #
 
 components = {
@@ -30,15 +30,17 @@ components = {
   23: "OPENTCP",
   24: "OPENUDP",
   25: "OPENCOAP",
-  26: "C6T",
-  27: "CEXAMPLE",
-  28: "CINFO",
-  29: "CLEDS",
-  30: "CSTORM",
-  31: "CWELLKNOWN",
-  32: "TECHO",
-  33: "TOHLONE",
-  34: "UECHO",
+  26: "DTLS",
+  27: "C6T",
+  28: "CEXAMPLE",
+  29: "CINFO",
+  30: "CLEDS",
+  31: "CSTORM",
+  32: "CWELLKNOWN",
+  33: "TECHO",
+  34: "TOHLONE",
+  35: "UECHO",
+  36: "RRT",
 }
 
 errorDescriptions = {
@@ -91,7 +93,7 @@ errorDescriptions = {
   47: "unsupported command {0}",
   48: "unknown message type {0}",
   49: "wrong address type {0} (code location {1})",
-  50: "isBridge mismatch (code location {0})",
+  50: "bridge mismatch (code location {0})",
   51: "header too long, length {1} (code location {0})",
   52: "input length problem, length={0}",
   53: "booted",
