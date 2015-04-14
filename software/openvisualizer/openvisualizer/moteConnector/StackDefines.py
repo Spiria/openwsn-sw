@@ -1,6 +1,6 @@
 # DO NOT EDIT DIRECTLY!
 # This file was generated automatically by GenStackDefines.py
-# on Wed, 25 Feb 2015 16:46:59
+# on Tue, 14 Apr 2015 20:41:04
 #
 
 components = {
@@ -30,17 +30,17 @@ components = {
   23: "OPENTCP",
   24: "OPENUDP",
   25: "OPENCOAP",
-  26: "DTLS",
-  27: "C6T",
-  28: "CEXAMPLE",
-  29: "CINFO",
-  30: "CLEDS",
-  31: "CSTORM",
-  32: "CWELLKNOWN",
-  33: "TECHO",
-  34: "TOHLONE",
-  35: "UECHO",
-  36: "RRT",
+  26: "C6T",
+  27: "CEXAMPLE",
+  28: "CINFO",
+  29: "CLEDS",
+  30: "CSTORM",
+  31: "CWELLKNOWN",
+  32: "TECHO",
+  33: "TOHLONE",
+  34: "UECHO",
+  35: "RRT",
+  36: "CTEST",
 }
 
 errorDescriptions = {
@@ -101,5 +101,8 @@ errorDescriptions = {
   55: "invalid packet frome radio, length {1} (code location {0})",
   56: "busy receiving when stop of serial activity, buffer input length {1} (code location {0})",
   57: "wrong CRC in input Buffer (input length {0})",
-  58: "dtls packet received",
+  64: "got led enable packet",
+  65: "ctest enabled",
+  66: "ctest target changed",
+  67: "got ctest target info request",
 }
